@@ -1,0 +1,9 @@
+# Python 3.10 (as reported in the manuscript)
+numpy
+pandas
+scipy
+scikit-learn
+scikit-image
+SimpleITK
+pyradiomics==3.1.0
+tqdm

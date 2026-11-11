@@ -1,0 +1,17 @@
+# Patient-level imaging/clinical data must not be committed.
+data/raw_ct/*
+!data/raw_ct/.gitkeep
+data/clinical/*
+!data/clinical/.gitkeep
+
+# Derived patient-level / analysis outputs
+results/*
+!results/.gitkeep
+
+# Local Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
